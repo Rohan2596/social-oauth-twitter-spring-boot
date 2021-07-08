@@ -1,0 +1,8 @@
+
+twitter:
+  consumerKey: "${consumerKey}"
+  consumerSecret: "${consumerSecret}"
+  callbackUrl: "http://localhost:8080/oauth2/callback/twitter"
+  userInfoUrl: "https://api.twitter.com/1.1/account/verify_credentials.json?include_email=true"
+server:
+  port: 8080
